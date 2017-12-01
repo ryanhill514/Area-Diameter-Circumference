@@ -6,6 +6,10 @@ A simple executable written in C++ to calculate either area, diameter, or circum
 
 * The executable version of the program can be downloaded from the main page of the repository and can easily be ran on your desktop. I recommend trying out the program first to see exactly how it works. The instructions should be simple to understand, and by running the program a few times one can begin to see all the possibilities for improvement.
 
+![area-diameter-circumference](https://user-images.githubusercontent.com/33887586/33486765-dc37c618-d670-11e7-9ce5-52d93aa875d4.png)
+
+* The one thing to remember when using the program is how the input is read when it is entered. The letter denoting the calculation you wish to make must be typed first, and only the letters A, D, or C can be used. Any other letter will return an error message. Anything entered after the first letter is considered to be the value for the radius. An eror may occur if this input is not an integer or double.
+
 ### Prerequisites & Installation
 
 * The .cpp file provided can be dowloaded and opened in a source code editor. There you can view the main body of code and the functions that are used. The additional comments in the code should clarify the purpose of the various lines and paint a good picture of what the program is doing.
